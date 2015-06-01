@@ -1,0 +1,27 @@
+#splash {
+  width: 25%;
+  height: 35%;
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+  margin-bottom: 20px;
+  border: 5px solid black;
+}
+
+body {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+div {
+  border: 3px solid orange;
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+a:hover{
+  font-weight: normal;
+}

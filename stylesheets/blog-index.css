@@ -1,0 +1,21 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+  color: black;
+}
+
+a{
+    color: orange;
+    text-decoration: none;
+}
+.title{
+  font-size: 5em;
+}
+
+a:hover {
+  font-weight: lighter;
+}
+
+a:visited{
+  color: red;
+}
