@@ -13,7 +13,7 @@ body {
   font-family: sans-serif;
 }
 
-div {
+nav {
   border: 3px solid orange;
   display: inline;
   margin-left: auto;
@@ -29,4 +29,16 @@ a:hover{
 a {
   color: black;
   text-decoration: none;
+}
+
+#contact-link {
+  display: inline-block;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top: 20px;
+}
+
+#contact-link:hover img{
+    -webkit-filter: hue-rotate(180deg);
+    -webkit-filter: drop-shadow(1px 1px 20px black);
 }
