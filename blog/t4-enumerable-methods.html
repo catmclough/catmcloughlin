@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+  <title>Enumerable and Its Map Method</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="stylesheets/blogs.css">
+</head>
+
+<main>
+  <h1>Ruby's Enumerable Module</h1>
+  <h2>A Beginning Beginner's Guide</h2>
+  <h4>June 14, 2015</h4>
+
+  <section>
+    <p>
+      So far we've learned about arrays and hashes as well as their handy methods like #each, which is used to iterate through their data. As it turns out, there is a whole 'nother category of methods avaiable to these classes in the `Enumerable` module.
+    </p>
+    <p>
+      `Enumerable` is called a module because it is a neatly packaged selection of methods that programmers can draw from in other classes. Lets take a look at some examples of `Enumerable` methods in action!
+    </p>
+    <p>
+      First let's look at `Enumerable`'s #select method. We had a challenge this week where we wanted to separate the names from a large array into smaller, evenly divided groups. My partner and I chose to loop through the array using each, then check to see whether the index was divisible by 4. If it was, we knew that person would be the last member of their group (assuming we were dividing the large array into groups of four). Although we got the code to do its job, it was far too long and complicated. `Enumerable`'s #select method would have been a much simpler fix, and here's why: #select runs its block of instructions on every item in the array or hash and returns a new object that contains only the items for which the original block returned `true`. (You can click <a href="https://github.com/catmclough/phase-0-unit-2/blob/master/week-4/acct-groups/my_solution.rb">here</a> to see how my partner and I solved the problem originally, and how I shortened the code using #select in the refactored solution.)
+    </p>
+    <p>Another common Enumerable method is #map (which is apparently interchangeable with #collect). These methods are true to their names in that they perform the actions in the block of code on the array or hash and map the results to a new object filled with the <i>collected</i> results. See below for a very simple example.
+    </p>
+    <code>
+      > [1,3,9].map {|num| num*2}
+      => [2, 6, 18]
+    </code>
+    <p>
+      As a certified newb, I have to say, I haven't fully grasped the point of having a separate module filled with methods when `Array` and `Hash` have their own. Why not just have methods like #select and #map in each class? The answer is, as of yet, to be declared.
+    </p>
+  </section>
+</main>
+
