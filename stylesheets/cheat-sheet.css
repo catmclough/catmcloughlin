@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    background-color: #8AADD7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#title_block {
+    width: 100%;
+    padding: 1em 0 1em 0;
+    background-color: #616161;
+    border-radius: 15px;
+    text-align: center;
+    color: #ffffff;
+}
+#html_block {
+    min-width: 40%;
+    max-width:45%
+    float: left;
+    display: inline-block;
+    margin: 0 0 0 0;
+}
+#css_block {
+   min-width: 40%;
+   max-width: 45%
+
+   margin: 0 0 0 0;
+}
+.table {
+    border: 1px solid white;
+    border-collapse: collapse;
+    text-align: center;
+    color: #ffffff;
+    margin: 20px 0 20px 0;
+    display: inline-block;
+}
+td, th {
+  border: solid 1px white;
+    padding: 4px 0 4px 0;
+}
+th {
+    background-color: #616161;
+    color: #ffffff;
+    padding: 10px 0 10px 0;
+}
