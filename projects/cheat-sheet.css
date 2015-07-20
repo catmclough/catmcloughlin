@@ -1,0 +1,204 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    background-color: #7A7A7A;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2% 2% 2% 2%;
+}
+#titleBlock {
+    width: 98%;
+    margin: 25px auto 25px auto;
+    background-color: #304875;
+    border-radius: 10px;
+    text-align: center;
+}
+#titleBlock h1 {
+    padding: 10px 0 10px 0;
+    margin: 0 0 0 0;
+    text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
+    color: #BDA07E;
+    opacity: 0.3;
+    font-size: 60px;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+#topCodeBlock {
+    width: 98%;
+    padding: .25em 0 .25em 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.centerBlockHeader {
+    margin: 10px 0 5px 12%;
+    clear: both;
+}
+.centerBlockHeader h2 {
+    text-align: left;
+    font-variant: small-caps;
+    margin: 0 0 0 0;
+}
+.codeBlock {
+    width: 75%;
+    margin: 0 auto 25px auto;
+    padding: 10px 10px 10px 10px;
+    background-color: #CCCCCC;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.leftBlock {
+    float: left;
+    display: inline-block;
+    margin: 0 0 15px 0;
+    width: 50%;
+}
+.rightBlock {
+    display: inline-block;
+    margin: 0 0 15px 0;
+    width: 50%;
+}
+.codeBlock .htmlTag {
+    font-size: 110%;
+    font-weight: bold;
+    margin: 5px 0 0 0;
+}
+.codeBlock .tagInfo {
+    font-size: 110%;
+    font-weight: normal;
+    color: #1E41CC;
+    margin: 5px 0 0 0;
+}
+.bodyText {
+    font-size: 100%;
+    font-weight: normal;
+    margin: 5px 0 0 0;
+}
+.htmlBlock {
+    width: 48%;
+    float: left;
+    display: inline-block;
+    margin: 0 0 25px 1%;
+}
+.blockHeader {
+    width: 100%;
+    margin: 10px 0 0 0;
+}
+.blockHeader h2 {
+    font-variant: small-caps;
+    margin: 0 0 0 0;
+}
+.cssBlock {
+   width: 48%;
+   float: right;
+   margin: 0 1% 25px 0;
+}
+.table {
+    width: 100%;
+    border: 1px solid white;
+    border-collapse: collapse;
+    color: #ffffff;
+    margin: 5px 0 5px 0;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+td, th {
+  border: solid 1px white;
+  padding: 7px 7px 7px 7px;
+  font-size: 105%;
+}
+th {
+    background-color: #304875;
+    color: #ffffff;
+    padding: 10px 0 10px 0;
+}
+.column1 {
+    width: 40%;
+    text-align: center;
+}
+td .column2 {
+    text-align: left;
+}
+#bottomImageBlock {
+    width: 98%;
+    padding: .25em 0 .25em 0;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+}
+.leftCodeBlockHeader {
+    width: 48%;
+    float: left;
+    margin: 0 auto 0 auto;
+}
+.rightCodeBlockHeader {
+    width: 48%;
+    float: right;
+    margin: 0 auto 0 auto;
+}
+.leftCodeBlock {
+    width: 48%;
+    float: left;
+    margin: 0 auto 25px auto;
+    padding: 0 10px 10px 10px;
+    background-color: #CCCCCC;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.rightCodeBlock {
+    width: 48%;
+    float: right;
+    margin: 0 auto 25px auto;
+    padding: 0 10px 10px 10px;
+    background-color: #CCCCCC;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.leftCodeBlockHeader h2, .rightCodeBlockHeader h2 {
+    margin-bottom: 5px;
+}
+#bottomSampleBlock {
+    width: 98%;
+    clear: both;
+    padding: .25em 0 .25em 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imageBlock {
+    width: 75%;
+    height: 600px;
+    margin: 0 auto 25px auto;
+    padding: 10px 10px 10px 10px;
+    background-color: #CCCCCC;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.imageBlock h1 {
+    margin-top: 250px;
+    vertical-align: middle;
+    text-align: center;
+}
+footer {
+    width: 98%;
+    margin: 50px auto 25px auto;
+    padding: 10px 0 10px 0;
+    background-color: #304875;
+    border-radius: 10px;
+    clear: both;
+}
+footer p {
+    margin: 0 0 0 15px;
+    text-align: center;
+    text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
+    color: #BDA07E;
+    opacity: 0.3;
+    font-size: 25px;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+#bottomSampleBlock .leftCodeBlock h1{
+    height: 400px;
+    text-align: center;
+    margin: 100px 0 0 0;
+}
+#bottomSampleBlock .rightCodeBlock h1{
+    height: 400px;
+    text-align: center;
+    margin: 100px 0 0 0;
+}
