@@ -1,25 +1,23 @@
 #splash {
-  width: 25%;
-  height: 35%;
+  width: 668px;
+  height: 477px;
   display: block;
   margin-left: auto;
   margin-right:auto;
   margin-bottom: 20px;
-  border: 5px solid black;
+  border: 1px solid black;
 }
 
 body {
   text-align: center;
-  font-family: sans-serif;
+  font-family: 'Roboto Slab', serif;
 }
 
 nav {
-  border: 3px solid orange;
   display: inline;
   margin-left: auto;
   margin-right: auto;
   font-weight: bold;
-  text-transform: uppercase;
 }
 
 a:hover{
