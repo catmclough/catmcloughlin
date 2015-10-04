@@ -1,2 +1,2 @@
 # catmclough.github.io
-My DBC Phase 0 github pages site
+My personal website with contact information and links to projects.
