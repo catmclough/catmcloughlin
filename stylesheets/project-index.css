@@ -1,0 +1,25 @@
+body {
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  color: black;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+a{
+  color: orange;
+  text-decoration: none;
+}
+
+.title{
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 3em;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #f7b35b;
+}
