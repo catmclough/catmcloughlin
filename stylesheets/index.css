@@ -1,42 +1,58 @@
-#splash {
-  width: 668px;
-  height: 477px;
-  display: block;
-  margin-left: auto;
-  margin-right:auto;
-  margin-bottom: 20px;
-  border: 1px solid black;
+body {
+  font-family: 'Ubuntu', sans-serif;
+  color: #CDC8B6;
+  background-color: #22313F;
 }
 
-body {
-  text-align: center;
-  font-family: 'Roboto Slab', serif;
+#home-body {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+#home-container {
+  position: relative;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 25%;
+}
+
+#name {
+  font-family: 'Damion', cursive;
+  display: inline-block;
+  font-size: 4em;
+  margin-right: 0.2em;
+}
+
+#title {
+  font-size: 1.5em;
+  font-style: italic;
+  display: inline-block;
+  margin-left: 1.5%;
 }
 
 nav {
   display: inline;
-  margin-left: auto;
-  margin-right: auto;
-  font-weight: bold;
+  margin-left: 1%;
 }
 
-a:hover{
-  font-weight: normal;
-}
-
-a {
-  color: black;
+nav a {
+  color: #FFFFFF;
   text-decoration: none;
+  font-size: 1.4em;
 }
 
-#contact-link {
+nav:hover{
+  text-decoration: underline;
+}
+
+#contact-link img{
   display: inline-block;
-  margin-left: auto;
-  margin-right:auto;
+  margin-left: 1%;
   margin-top: 20px;
+  opacity: 0.85;
 }
 
 #contact-link:hover img{
-    -webkit-filter: hue-rotate(180deg);
-    -webkit-filter: drop-shadow(1px 1px 20px black);
+  opacity: 1.0;
 }
