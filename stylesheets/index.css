@@ -1,24 +1,51 @@
 body {
-  font-family: 'Big Caslon', serif;
+  font-family: 'helvetica neue', 'arial', serif;
   color: black;
-  background-color: #f1f2f6;
+  width: 100%;
+  margin: 0;
 }
 
-#home-container {
-  margin-top: 25%;
+#top-bar {
+  background-color: #444444;
+  height: 1.5em;
 }
+
+#name-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 17em;}
 
 #name {
-  font-family: 'Big Caslon', serif;
-  display: inline-block;
+  font-family: 'Helvetica Neue', 'Arial', serif;
   font-size: 2em;
+  font-weight: bold;
 }
 
 #title {
-  font-size: 1.5em;
-  font-style: italic;
-  display: inline-block;
+  font-size: 1.3em;
 }
+
+
+#nav-block {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3em;
+  background-color: #EAEAEA;
+  height: 17em;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+#contact-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 8em;
+  padding: 4em 25% 4em 25%;}
 
 nav {
   display: inline;
@@ -27,17 +54,25 @@ nav {
 nav a {
   text-decoration: none;
   font-size: 1.4em;
+  color: black;
 }
 
 nav:hover{
   text-decoration: underline;
 }
 
+#contact-header {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+#contact-links {
+  display: flex;
+  align-self: center;
+}
+
 #contact-link img{
-  display: inline-block;
-  margin-right: 1%;
-  margin-left: 1%;
-  margin-top: 20px;
+  margin: 1em;
   opacity: 0.85;
 }
 

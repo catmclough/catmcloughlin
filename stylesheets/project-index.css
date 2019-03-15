@@ -1,12 +1,4 @@
-body {
-  text-align: center;
-  font-family: 'Big Caslon', serif;
-  color: black;
-  margin-left: 20%;
-  margin-right: 20%;
-}
-
-a{
+a {
   color: orange;
   text-decoration: none;
 }
