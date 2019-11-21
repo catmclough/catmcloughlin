@@ -5,10 +5,8 @@ html {
 body {
   font-family: 'Roboto Mono', monospace;
   color: #4E342E;
-  width: 100%;
-  height: 100vh;
   margin: 0;
-  padding: 5%;
+  width: 100%;
   display: grid;
   grid-template-columns: 25% 75%;
   grid-template-rows: 100%;
@@ -24,11 +22,15 @@ a:hover {
 }
 
 #left-one-third {
+  margin-top: 40px;
+  margin-left: 15px;
   grid-column-start: 1;
   grid-column-end: 2;
 }
 
 #right-two-thirds {
+  margin-top: 40px;
+  margin-right: 15px;
   grid-column-start: 2;
   grid-column-end: -1;
 }
@@ -44,4 +46,10 @@ a:hover {
 #name {
   font-size: 2em;
   margin-bottom: 1em;
+}
+
+.project-title {
+  text-decoration: underline;
+  margin-left: 15px;
+  margin-bottom: 10px;
 }
