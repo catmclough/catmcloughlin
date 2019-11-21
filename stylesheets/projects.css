@@ -1,7 +1,15 @@
+html {
+  background-color: #EFEBE9;
+}
+
 body {
-  background-color: white;
-  text-align: center;
-  font-family: 'Big Caslon', serif;
-  margin-left: 20%;
-  margin-right: 20%;
+  font-family: 'Roboto Mono', monospace;
+  color: #4E342E;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 5%;
+  /* display: grid; */
+  /* grid-template-columns: 25% 75%;
+  grid-template-rows: 100%; */
 }

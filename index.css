@@ -15,8 +15,8 @@ body {
 }
 
 a, a:visited {
-  color: #4E342E;
   text-decoration: none;
+  color: #4E342E;
 }
 
 a:hover {
@@ -31,6 +31,9 @@ a:hover {
 #right-two-thirds {
   grid-column-start: 2;
   grid-column-end: -1;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
 }
 
 #side-nav {
@@ -44,4 +47,9 @@ a:hover {
 #name {
   font-size: 2em;
   margin-bottom: 1em;
+}
+
+#welcome-message {
+  font-size: 3em;
+  grid-area: 2 / 1 / span 1 / span 3;
 }
