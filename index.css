@@ -44,12 +44,12 @@ a:hover {
   margin-bottom: 2em;
 }
 
-#name {
-  font-size: 2em;
+#name img {
+  height: 10em;
+  width: 100%;
   margin-bottom: 1em;
 }
 
-#welcome-message {
-  font-size: 3em;
-  grid-area: 2 / 1 / span 1 / span 3;
+.nav {
+  margin-left: 20%;
 }
