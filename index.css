@@ -1,17 +1,17 @@
-html {
+html, body {
   background-color: #EFEBE9;
+  height: 100vh;
 }
 
 body {
   font-family: 'Roboto Mono', monospace;
   color: #4E342E;
   width: 100%;
-  height: 100vh;
   margin: 0;
-  padding: 5%;
 }
 
 #splash {
+  padding: 5%;
   display: grid;
   grid-template-columns: 25% 75%;
   grid-template-rows: 100%;
@@ -22,33 +22,36 @@ body {
 }
 
 a, a:visited {
-  text-decoration: none;
   color: #4E342E;
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 #left-one-third {
   grid-column-start: 1;
   grid-column-end: 2;
+  text-align: center;
 }
 
 #right-two-thirds {
   grid-column-start: 2;
   grid-column-end: -1;
-  display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%;
-  grid-template-rows: 20% 20% 20% 20% 20%;
+  text-align: center;
 }
 
-#side-nav {
-  font-size: 1.5em;
+#orb {
+  width: 60%;
+  height: 60%;
+  position: relative;
 }
 
-#side-nav div {
-  margin-bottom: 2em;
+#welcome-message {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  font-size: 24px;
 }
 
 #name img {
@@ -57,18 +60,6 @@ a:hover {
   margin-bottom: 1em;
 }
 
-.nav {
-  margin-left: 20%;
-}
-
-#about-message {
-  grid-column-start: 2;
-  grid-column-end: span 3;
-  grid-row-start: 2;
-}
-
-#contact-message {
-  grid-column-start: 2;
-  grid-column-end: span 3;
-  grid-row-start: 3;
+#links {
+  margin-top: 20px;
 }
