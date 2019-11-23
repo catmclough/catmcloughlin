@@ -9,9 +9,16 @@ body {
   height: 100vh;
   margin: 0;
   padding: 5%;
+}
+
+#splash {
   display: grid;
   grid-template-columns: 25% 75%;
   grid-template-rows: 100%;
+}
+
+#contact-section {
+  text-align: center;
 }
 
 a, a:visited {
@@ -52,4 +59,16 @@ a:hover {
 
 .nav {
   margin-left: 20%;
+}
+
+#about-message {
+  grid-column-start: 2;
+  grid-column-end: span 3;
+  grid-row-start: 2;
+}
+
+#contact-message {
+  grid-column-start: 2;
+  grid-column-end: span 3;
+  grid-row-start: 3;
 }
