@@ -1,23 +1,6 @@
-body {
-  font-family: 'Roboto Mono', monospace;
-  color: #4E342E;
-  margin: 0;
-  width: 100%;
-}
-
-#projects-splash {
-  display: flex;
-  padding: 5vh 0 0 5vw;
-  min-height: 95vh;
-}
-
 #projects-list {
   padding: 3rem;
   flex: 1;
-}
-
-#active-link {
-  font-weight: 400;
 }
 
 .project-title {

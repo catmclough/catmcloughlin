@@ -8,10 +8,10 @@ body {
   color: #4E342E;
   width: 100%;
   margin: 0;
+  padding: 5vh 0 0 5vw;
 }
 
 #splash {
-  padding: 5vh 0 0 5vw;
   height: 95vh;
   overflow: hidden;
 }
