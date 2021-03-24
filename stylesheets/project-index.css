@@ -7,9 +7,17 @@ body {
   color: #4E342E;
   margin: 0;
   width: 100%;
-  display: grid;
-  grid-template-columns: 25% 75%;
-  grid-template-rows: 100%;
+}
+
+#projects-splash {
+  display: flex;
+  padding: 5vh 0 0 5vw;
+  min-height: 95vh;
+}
+
+#projects-list {
+  padding: 3rem;
+  flex: 1;
 }
 
 a, a:visited {
@@ -21,31 +29,8 @@ a:hover {
   text-decoration: underline;
 }
 
-#left-one-third {
-  margin-top: 40px;
-  margin-left: 15px;
-  grid-column-start: 1;
-  grid-column-end: 2;
-}
-
-#right-two-thirds {
-  margin-top: 40px;
-  margin-right: 15px;
-  grid-column-start: 2;
-  grid-column-end: -1;
-}
-
-#side-nav {
-  font-size: 1.5em;
-}
-
-#side-nav div {
-  margin-bottom: 2em;
-}
-
-#name {
-  font-size: 2em;
-  margin-bottom: 1em;
+#active-page-nav {
+  text-decoration: underline;
 }
 
 .project-title {

@@ -16,12 +16,8 @@ body {
   overflow: hidden;
 }
 
-#words {
+.nav {
   width: 20rem;
-}
-
-#contact-section {
-  text-align: center;
 }
 
 a, a:visited {
@@ -40,12 +36,12 @@ a:hover {
   left: 4rem;
 }
 
-#name img {
+.name img {
   height: 10em;
   width: 100%;
   margin-bottom: 1em;
 }
 
-#links {
+.links {
   margin-top: 20px;
 }
