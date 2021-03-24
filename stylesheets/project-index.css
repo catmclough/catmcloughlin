@@ -1,10 +1,5 @@
-body {
+#project-page-container {
   padding: 5vh 0 0 5vw;
-}
-
-#projects-list {
-  padding: 3rem;
-  flex: 1;
 }
 
 .project-title {
