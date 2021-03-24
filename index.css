@@ -11,10 +11,13 @@ body {
 }
 
 #splash {
-  padding: 5%;
-  display: grid;
-  grid-template-columns: 25% 75%;
-  grid-template-rows: 100%;
+  padding: 5vh 0 0 5vw;
+  height: 95vh;
+  overflow: hidden;
+}
+
+#words {
+  width: 20rem;
 }
 
 #contact-section {
@@ -29,29 +32,12 @@ a:hover {
   text-decoration: none;
 }
 
-#left-one-third {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  text-align: center;
-}
-
-#right-two-thirds {
-  grid-column-start: 2;
-  grid-column-end: -1;
-  text-align: center;
-}
-
 #orb {
-  width: 60%;
-  height: 60%;
+  width: 100rem;
+  height: 100rem;
   position: relative;
-}
-
-#welcome-message {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  font-size: 24px;
+  bottom: 13rem;
+  left: 4rem;
 }
 
 #name img {
