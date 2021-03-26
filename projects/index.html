@@ -5,6 +5,7 @@
     <link type="text/css" rel="stylesheet" href="../stylesheets/project-index.css" />
     <link type="text/css" rel="stylesheet" href="../stylesheets/project.css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <script src="processing-1.4.8.min.js"></script>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <title>Cat McLoughlin | Projects</title>
   </head>
@@ -12,15 +13,38 @@
     <div id="project-page-container">
       <a href="/" class="name"><img src="../imgs/m'name.png" alt="Cat McLoughlin"></a>
       <div id="projects-list">
-        <h2>Interactive Computing Class</h2>
-        <p>This is a selection of my projects I created for New York University's Interactive Computing class with Professor Craig Kapp in the fall of 2014. The projects are all written in Processing JS (now <a href="https://p5js.org/" target="_blank">p5.js</a>).</p>
-        <a class="project-title" href="bart-sketch.html">Clickable Bart Simpson</a>
+        <div class="project-details-container">
+          <div>
+            <h2>The Book Atlas</h2>
+            <a class="project-title" href="https://book-atlas.com/">https://book-atlas.com</a>
+            <p>
+              When I go on vacation I like to take a book that's set in or near my destination. So, inspired by the <a href="https://apps.npr.org/best-books/#view=covers&year=2020">NPR Book Concierge</a> and <a href="https://dauntbooks.co.uk/">Daunt Books</a>, I created a personal database of books organized by setting or other associated locations.
+            </p>
+            <p>
+               The books are currently curated by myself, but this is a work in progress! I'd like to add support for cities, states and regions, a better experience for adding new books including book covers, and links to purchase any given book.
+            </p>
+            <p>
+              This app served as my introduction to React. It uses a Firebase DB and the Google Books API for book creation.
+            </p>
+          </div>
+          <img class="project-image" src="imgs/book-atlas.png" alt="Screen shot of the book atlas dot com" />
+        </div>
+        <hr />
+        <h2>NYU</h2>
+        <p>
+          This is a selection of projects I created in college for a class called Interactive Computing. The projects are all written in Processing JS (now <a href="https://p5js.org/" target="_blank">p5.js</a>).
+        </p>
+        <div class="project-details-container">
+          <div>
+            <a class="project-title" href="bart-sketch.html">Clickable Bart Simpson</a>
+            <p>
+              This is the first programming project I ever completed. Bart features a click handler that reveals an exciting message to the user.
+            </p>
+          </div>
+          <canvas data-processing-sources="bart-simpson.pde"></canvas>
+        </div>
         <a class="project-title" href="chase-game.html">Frogger Soccer</a>
         <a class="project-title" href="halloween-game.html">Spooky Halloween Game</a>
-
-        <h2>Dev Bootcamp</h2>
-        <p>Projects completed at Dev Bootcamp in the summer of 2015.</p>
-        <a class="project-title" href="https://nofenceschicago.herokuapp.com">NoFences (Final Project)</a>
       </div>
     </div>
   </body>

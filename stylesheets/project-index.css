@@ -1,5 +1,9 @@
+a {
+  text-decoration: underline;
+}
+
 #project-page-container {
-  padding: 5vh 0 0 5vw;
+  padding: 3rem;
 }
 
 .project-title {
@@ -7,4 +11,13 @@
   text-decoration: underline;
   margin-left: 1rem;
   margin-bottom: 2rem;
+}
+
+.project-details-container {
+  width: 100%;
+  display: flex;
+}
+
+.project-image {
+  max-width: 50%;
 }
