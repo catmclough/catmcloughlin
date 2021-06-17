@@ -2,22 +2,44 @@ a {
   text-decoration: underline;
 }
 
-#project-page-container {
-  padding: 3rem;
+#frogger-soccer-image {
+  max-width: 30%;
+  margin-right: 2em;
+  margin-left: 2em;
+  height: 28em;
+  box-shadow: 0px 4px 16px 4px #908e8d;
 }
 
-.project-title {
+#halloween-game-image {
+  max-width: 40%;
+}
+
+.project-description {
+  padding: 1em;
+}
+
+.project-details-container {
+  width: 100%;
+  display: flex;
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+
+.project-image {
+  max-width: 50%;
+}
+
+.project-link {
   display: block;
   text-decoration: underline;
   margin-left: 1rem;
   margin-bottom: 2rem;
 }
 
-.project-details-container {
-  width: 100%;
-  display: flex;
+#project-page-container {
+  padding: 3rem;
 }
 
-.project-image {
-  max-width: 50%;
+#section-description {
+  margin-bottom: 2em;
 }

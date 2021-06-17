@@ -1,50 +1,107 @@
 <!DOCTYPE html>
-  <html>
+<html>
   <head>
     <link type="text/css" rel="stylesheet" href="../index.css" />
-    <link type="text/css" rel="stylesheet" href="../stylesheets/project-index.css" />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="../stylesheets/project-index.css"/>
     <link type="text/css" rel="stylesheet" href="../stylesheets/project.css" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap"
+      rel="stylesheet"/>
     <script src="processing-1.4.8.min.js"></script>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <title>Cat McLoughlin | Projects</title>
   </head>
   <body>
     <div id="project-page-container">
-      <a href="/" class="name"><img src="../imgs/m'name.png" alt="Cat McLoughlin"></a>
+      <a href="/" class="name">
+        <img src="../imgs/m'name.png" alt="Cat McLoughlin"/>
+      </a>
+      <h1 id="page-title">Personal Software Projects</h1>
+      <hr />
       <div id="projects-list">
         <div class="project-details-container">
-          <div>
+          <div class="project-description">
             <h2>The Book Atlas</h2>
-            <a class="project-title" href="https://book-atlas.com/">https://book-atlas.com</a>
+            <a class="project-link" href="https://book-atlas.com/"
+              >https://book-atlas.com</a>
             <p>
-              When I go on vacation I like to take a book that's set in or near my destination. So, inspired by the <a href="https://apps.npr.org/best-books/#view=covers&year=2020">NPR Book Concierge</a> and <a href="https://dauntbooks.co.uk/">Daunt Books</a>, I created a personal database of books organized by setting or other associated locations.
+              When I go on vacation I like to take a book that's set in or near
+              my destination. So, inspired by the
+              <a href="https://apps.npr.org/best-books/#view=covers&year=2020"
+                >NPR Book Concierge</a>
+              and <a href="https://dauntbooks.co.uk/">Daunt Books</a>, I created
+              a personal database of books organized by setting or other
+              associated locations.
             </p>
             <p>
-               The books are currently curated by myself, but this is a work in progress! I'd like to add support for cities, states and regions, a better experience for adding new books including book covers, and links to purchase any given book.
+              The books are currently curated by myself, but this is a work in
+              progress! I'd like to add support for cities, states and regions,
+              a better experience for adding new books including book covers,
+              and links to purchase any given book.
             </p>
             <p>
-              This app served as my introduction to React. It uses a Firebase DB and the Google Books API for book creation.
+              This app served as my introduction to React. It uses a Firebase DB
+              and the Google Books API for book creation.
             </p>
           </div>
-          <img class="project-image" src="imgs/book-atlas.png" alt="Screen shot of the book atlas dot com" />
+          <img
+            class="project-image"
+            src="imgs/book-atlas.png"
+            alt="Screen shot of the book atlas dot com"/>
+        </div>
+        <h1>NYU</h1>
+        <p id="section-description">
+          This is a selection of projects I created in college for a class
+          called Interactive Computing. The projects are all written in
+          Processing JS (now
+          <a href="https://p5js.org/" target="_blank">p5.js</a>).
+        </p>
+        <hr />
+        <div class="project-details-container">
+          <div class="project-description">
+            <h2>Frogger Soccer</h2>
+            <a class="project-link" href="chase-game.html">
+              Click here to play
+            </a>
+            <p>
+              Frogger Soccer is a chase game where you are the ball and your goal is to find the net. If you run into a defender, you've been tackled and have to start at the beginning. See how many goals you can score before being tackled five times.
+            </p>
+            <p>
+              This was the first game I ever created. The challenge lied in learning how to track the movement of elements in a Processing program and handle collisions between them. This was also my first time creating a game loop and handling score tracking and resetting after a game has ended.
+            </p>
+            <p>
+              The defenders are original drawings by myself, done using <a href=" https://make8bitart.com/">'make 8-bit art'</a> by the amazing <a href="https://jennmoney.biz/">Jen Schiffer</a>.
+            </p>
+          </div>
+          <img
+            class="project-image"
+            id="frogger-soccer-image"
+            src="imgs/frogger-soccer.png"
+            alt="Screen shot of the Frogger Soccer game"/>
         </div>
         <hr />
-        <h2>NYU</h2>
-        <p>
-          This is a selection of projects I created in college for a class called Interactive Computing. The projects are all written in Processing JS (now <a href="https://p5js.org/" target="_blank">p5.js</a>).
-        </p>
         <div class="project-details-container">
-          <div>
-            <a class="project-title" href="bart-sketch.html">Clickable Bart Simpson</a>
+          <div class="project-description">
+            <h2>Spooky Halloween Game</h2>
+            <a class="project-link" href="halloween-game.html">
+              Click here to play
+            </a>
             <p>
-              This is the first programming project I ever completed. Bart features a click handler that reveals an exciting message to the user.
+              Another collision-based game, this one with mouse-tracking. Avoid the witch and the ghost, which appear at random y-coordinates and fly through the screen while you try to collect more candy corn than they do.
+            </p>
+            <p>
+              This game was part of my mid-term in the interactive computing class. I completed it in-class in about an hour.
             </p>
           </div>
-          <canvas data-processing-sources="bart-simpson.pde"></canvas>
+          <img
+            class="project-image"
+            id="halloween-game-image"
+            src="imgs/halloween-game.png"
+            alt="Screen shot of the Halloween candy game"/>
         </div>
-        <a class="project-title" href="chase-game.html">Frogger Soccer</a>
-        <a class="project-title" href="halloween-game.html">Spooky Halloween Game</a>
       </div>
     </div>
   </body>
