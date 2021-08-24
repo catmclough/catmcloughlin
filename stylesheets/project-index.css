@@ -39,11 +39,15 @@ a {
 
 .project-image {
   max-width: 100%;
+  box-shadow: 0px 4px 16px 4px #908e8d;
+}
+
+.no-box-shadow {
+  box-shadow: none;
 }
 
 #frogger-soccer-image {
   height: 28em;
-  box-shadow: 0px 4px 16px 4px #908e8d;
 }
 
 .project-description {
