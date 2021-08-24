@@ -1,6 +1,7 @@
 html, body {
   background-color: #EFEBE9;
   height: 100vh;
+  overflow: auto;
 }
 
 body {
@@ -38,8 +39,8 @@ a, a:visited {
 
 .name img {
   margin-bottom: 1em;
-  height: 12rem;
-  width: 22rem;
+  height: 12vmax;
+  width: 22vmax;
 }
 
 .title, .location {

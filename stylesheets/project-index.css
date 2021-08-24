@@ -1,33 +1,53 @@
+#page-title {
+  font-size: 2.5vmax;
+}
+
 a {
   text-decoration: underline;
 }
 
+/*************** MOBILE *************/
+.project-details-container {
+  display: flex;
+  margin-bottom: 2em;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-images {
+  max-width: 100%;
+  text-align: center;
+}
+/************************************/
+
+/************ LARGER SCREENS ********/
+@media screen and (min-width: 1200px) {
+  .project-details-container {
+    width: 100%;
+    display: flex;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    flex-direction: row;
+  }
+
+  .project-images {
+    max-width: 50%;
+    min-width: 30%;
+  }
+}
+/************************************/
+
+.project-image {
+  max-width: 100%;
+}
+
 #frogger-soccer-image {
-  max-width: 30%;
-  margin-right: 2em;
-  margin-left: 2em;
   height: 28em;
   box-shadow: 0px 4px 16px 4px #908e8d;
 }
 
-#halloween-game-image {
-  max-width: 40%;
-}
-
 .project-description {
   padding: 1em;
-}
-
-.project-details-container {
-  width: 100%;
-  display: flex;
-  margin-bottom: 2em;
-  margin-top: 2em;
-}
-
-.project-image {
-  max-width: 50%;
-  margin-right: 1vmin;
 }
 
 .project-link {
@@ -38,7 +58,7 @@ a {
 }
 
 #project-page-container {
-  padding: 3rem;
+  padding: 3vmax;
 }
 
 #section-description {
