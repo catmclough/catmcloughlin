@@ -27,6 +27,7 @@ a {
 
 .project-image {
   max-width: 50%;
+  margin-right: 1vmin;
 }
 
 .project-link {
