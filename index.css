@@ -1,12 +1,13 @@
-html, body {
-  background-color: #EFEBE9;
+html,
+body {
+  background-color: #efebe9;
   height: 100vh;
   overflow: auto;
 }
 
 body {
-  font-family: 'Roboto Mono', monospace;
-  color: #4E342E;
+  font-family: "Roboto Mono", monospace;
+  color: #4e342e;
   width: 100%;
   margin: 0;
 }
@@ -17,16 +18,9 @@ body {
   padding: 5vh 0 0 5vw;
 }
 
-a {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-a, a:visited {
-  color: #4E342E;
+a,
+a:visited {
+  color: #4e342e;
 }
 
 #orb {
@@ -43,9 +37,10 @@ a, a:visited {
   width: 22vmax;
 }
 
-.title, .location {
+.title,
+.location {
   width: 22rem;
-  margin: .3rem;
+  margin: 0.3rem;
 }
 
 nav {
@@ -62,5 +57,5 @@ a[target="_blank"]::after {
 }
 
 .projects-link {
-  margin: 1.5em 0;
+  margin: 1em 0;
 }
